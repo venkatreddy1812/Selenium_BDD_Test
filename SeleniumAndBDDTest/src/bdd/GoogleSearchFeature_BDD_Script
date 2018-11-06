@@ -1,0 +1,11 @@
+//As per my understanding, I have written the BDD script feature file below for Google search.
+
+Feature: Google Search feature  
+Scenario: When I go to the Google search page, and search for an item,
+		I expect to see some reference to that item in the result summary.
+    
+    Given   That I have gone to the Google home page
+    When    I enter "Selenium Test" in to the search box
+    Then    Auto suggestion list related to "Selenium Test" are shown below
+    Then    Count all the below suggestion list 
+    And     List all the suggestion names from the below suggestion list box 
